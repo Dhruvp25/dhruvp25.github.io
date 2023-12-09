@@ -1,0 +1,46 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta charset="utf-8">
+<meta name="theme-color" content="#031b26"/>
+<title>IoT Power DB</title>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="/bodyidx.js"></script>
+<link rel="stylesheet" href="/styleidx.css">
+<body link="#ffffff" vlink="#ffffff" alink="#ffffff"> 
+	<h1 id="Title">Smart Power DB Live Data</h1>
+	<div id="centreit">
+		<span id="data">
+			<hr >
+			<h3 align="center"> ThingSpeak Live Charts</h3>
+			<hr >
+			<p align="center"><button id="MyButton" onclick="location.href='https://dhruvp25.github.io/SPDB/energy.html'"><a>Energy | chart</a></button></p>
+			<p align="center"><button id="MyButton" onclick="location.href='https://dhruvp25.github.io/SPDB/volt.html'"><a>AC Voltage | chart</a></button></p>
+			<p align="center"><button id="MyButton" onclick="location.href='https://dhruvp25.github.io/SPDB/power.html'"><a>Power | chart</a></button></p>
+			<p align="center"><button id="MyButton" onclick="location.href='https://dhruvp25.github.io/SPDB/frequency.html'"><a>Frequency | chart</a></button></p>
+			<p align="center"><button id="MyButton" onclick="location.href='https://dhruvp25.github.io/SPDB/temp.html'"><a>Temperature | chart</a></button></p>
+			<hr>
+			<div align="center">Ahmedabad, India</div>
+			<div align="center">Creator: Dhruv Patel</div>
+			<div id="IsDataFresh" align="center"> </div>
+			<div id="UpdtIn" align="center"> </div>
+			<div>*Automatically updates every 60 Seconds</div>
+		</span>
+		<span id="dataLive" >
+			<hr>
+			<h3 align="center">ThingSpeak Live data</h3>
+			<hr>
+			<div id="centredata">
+				<li> AC Voltage <span id="field1" > --- </span> V </li>
+				<li> Power <span id="field2" > --- </span> W </li>
+				<li> Frequency <span id="field3" > --- </span> Hz </li>
+				<li> Energy <span id="field4" > --- </span> Kwh </li>
+				<li> Temperature <span id="field5" > --- </span> ℃ </li>
+				<li> Last value: <span id="created_at" > --- </span> </li>
+				<li> Update # <span id="entry_id" > --- </span> </li>
+			</div>
+			<hr>
+		</span>
+	</div>
+</body>
+</html>
