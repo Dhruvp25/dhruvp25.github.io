@@ -52,6 +52,9 @@ hr {
   padding: 10;
   transition-duration: 0.4s;
 }
+#MyLink {
+  text-decoration: none;
+}
 #MyButton:hover {
   background-color: #30565c;
 }
